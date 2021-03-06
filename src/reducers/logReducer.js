@@ -12,7 +12,8 @@ export default (state = initialState, action) => {
     case GET_LOGS:
       return {
         ...state,
-        logs: action.payload
+        logs: action.payload,
+        loading: false
       };
     case LOGS_ERROR:
       console.error(action.payload);
