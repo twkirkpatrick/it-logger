@@ -9,6 +9,17 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case GET_LOGS:
+      return {
+        ...state,
+        logs: action.payload
+      };
+    case LOGS_ERROR:
+      console.error(action.payload);
+      return {
+        ...state,
+        error: action.payload
+      };
     case SET_LOADING:
       return {
         ...state,
