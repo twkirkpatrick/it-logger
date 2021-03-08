@@ -80,7 +80,7 @@ export const updateLog = (log) => async (dispatch) => {
       method: "PUT",
       body: JSON.stringify(log),
       headers: {
-        "Content-Type": "application.json"
+        "Content-Type": "application/json"
       }
     });
 
