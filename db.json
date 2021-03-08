@@ -5,6 +5,34 @@
       "message": "hard drive fixed",
       "attention": false,
       "tech": "John Doe"
+    },
+    {
+      "message": "server 007 needs to be fixed",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-03-08T17:51:36.326Z",
+      "id": 2
+    },
+    {
+      "message": "code needs to be pushed to production",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2021-03-08T17:51:57.983Z",
+      "id": 3
+    },
+    {
+      "message": "server 1010 fixed and ready to deploy",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-03-08T17:52:13.643Z",
+      "id": 4
+    },
+    {
+      "message": "motherboard on 7890 needs to be replaced",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-03-08T17:52:34.523Z",
+      "id": 5
     }
   ],
   "techs": [
