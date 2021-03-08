@@ -24,15 +24,16 @@ const EditLogModal = ({ updateLog, current }) => {
         id: current.id,
         message,
         attention,
-        tech
+        tech,
+        date: new Date()
       };
 
       updateLog(updatedLog);
       M.toast({ html: "Log updated" });
 
-      /* setMessage("");
+      setMessage("");
       setTech("");
-      setAttention(false); */
+      setAttention(false);
     }
   };
   return (

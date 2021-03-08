@@ -90,7 +90,12 @@ export const updateLog = (log) => async (dispatch) => {
       type: UPDATE_LOG,
       payload: data
     });
-  } catch (err) {}
+  } catch (err) {
+    dispatch({
+      type: LOGS_ERROR,
+      payload: err.response.data
+    });
+  }
 };
 
 export const setCurrent = (log) => {
